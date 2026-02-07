@@ -1,24 +1,18 @@
-readme_content = """
-# 🧠 Python Trivia Quiz Game
+# 🚀 My Python Learning Projects
 
-A simple, interactive command-line interface (CLI) quiz application built with Python. This game presents randomized questions to the user and calculates their score in real-time.
+This repository contains my Python practice projects and scripts.
 
-## ✨ Features
-* **Randomized Questions**: Every time you play, the order of questions is shuffled.
-* **Score Tracking**: Keeps track of correct answers and provides a final percentage.
-* **Input Validation**: Handles user input gracefully.
+## 📂 Projects Overview
 
-## 🚀 How to Run
-1. Open the `.ipynb` file in Google Colab.
-2. Click 'Run All' or press `Ctrl + F9`.
-3. Follow the instructions in the console.
+### 1. 🧠 Quiz Game
+An interactive CLI quiz that asks random questions and tracks your score.
+* **Location:** `quiz_game.py`
+* **Features:** Randomization, Score tracking.
 
-## 🛠️ Built With
-* **Python 3.x**
-* **Google Colab**
-"""
+### 2. 🔢 Digit Analyzer
+A logic-based script that filters 4-digit numbers based on specific parity rules (even/odd digits).
+* **Location:** `digit-analyzer/digit_filter.py`
+* **Logic:** Finds numbers with even start and odd end digits.
 
-with open("README.md", "w") as f:
-    f.write(readme_content)
-
-print("README.md file has been created!")
+---
+*Created with ❤️ while learning Python.*
